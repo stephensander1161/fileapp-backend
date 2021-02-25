@@ -8,7 +8,7 @@ export const smtp = {
 	}
 };
 
-export const url = 'http://localhost:3001';
+export const url = 'http://localhost:27017';
 
 export const s3Config = {
 	accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY,
