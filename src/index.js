@@ -6,9 +6,9 @@ import bodyParser from 'body-parser';
 import multer from 'multer';
 import path from 'path';
 import nodemailer from 'nodemailer';
-import { connect } from './database';
-import AppRouter from './router';
-import { s3Config, s3Region, s3Bucket } from './config';
+import { connect } from './database.js';
+import AppRouter from './router.js';
+import { s3Config, s3Region, s3Bucket } from './config.js';
 // Amazon s3 setup
 import AWS from 'aws-sdk';
 import multerS3 from 'multer-s3';
